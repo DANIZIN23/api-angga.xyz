@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
     res.sendFile(__path + '/docs/home.html')
 })
 router.get('/login', (req, res) => {
-    res.sendFile(__path + '/login/login-user.html')
+    res.sendFile(__path + '/login/login-user.php')
 })
 
 router.get('/docs', (req, res) => {
